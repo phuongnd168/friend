@@ -1,0 +1,122 @@
+@media only screen and (min-width: 1200px) {
+    .home-controller {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      
+    }
+    .home-profile {
+      width: 25%;
+      float: left;
+      position: fixed;
+      left: 0px;
+      height: 100%;
+      z-index: 10000;
+      background-color:white;
+      box-shadow: 0px 0px 4px  grey;
+      
+    }
+    .title-layout{
+      float: left;
+      margin-left: 15px;
+    }
+    .icons{
+     float: left;
+     margin-top: 20px;
+     margin-left: 15px;
+     clear: both;
+     
+     background-color: grey;
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+    .setting{
+      float: right;
+      margin-top: 15px;
+      margin-right: 10px;
+      
+      background-color: grey;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .title-icons{
+      float: left;
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .next{
+      float: right;
+      margin-top: 30px;
+      margin-right: 15px;
+    }
+    
+    .home-page {
+      width: 50%;
+      margin-left: 25%;
+      background-color: #f0f2f5;
+      height: 100%;
+      overflow-y: scroll;
+      
+    }
+    #style-home-friend::-webkit-scrollbar{
+      width: 1px;
+     
+    }
+    #style-home-friend::-webkit-scrollbar-track{
+      
+      border-radius: 10%;
+    }
+    
+    .home-advertisement {
+      width: 25%;
+      height: 100%;
+      background-color: black;
+     
+    }
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1199px) {
+    .home-controller {
+      width: 100%;
+      padding-top: 75px;
+      display: flex;
+      
+    }
+    .home-profile {
+      width: 35%;
+      background-color: pink;
+    }
+    .home-page {
+      width: 65%;
+      background-color: cadetblue;
+    }
+    .home-advertisement {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .home-controller {
+      width: 100%;
+      padding-top: 75px;
+      display: flex;
+    }
+    .home-profile {
+      display: none;
+    }
+    .home-page {
+      width: 100%;
+      background-color: cadetblue;
+    }
+    .home-advertisement {
+      display: none;
+      
+    }
+  }
+  
