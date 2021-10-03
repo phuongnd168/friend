@@ -18,7 +18,7 @@ function List({Banbe}) {
             </Link>
             <div style={{float:'left', marginLeft: '10px'}}>
                 
-                <h2>Tất cả bạn bè</h2>
+                <h2>Tất cả bạn bè 1</h2>
                 
             </div>
             
