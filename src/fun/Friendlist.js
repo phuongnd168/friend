@@ -13,47 +13,64 @@ import {
 function Friendlist(props) {
     return (
         <div>
+            <Link to="/">
             <div className="prev-friendlist">
                 <GrLinkPrevious />
             </div>
-            <div className="title-friendlist">
-                <p>Bạn bè</p>
-            </div>
-            <div className="title1-friendlist">
-                <h2>Danh sách tùy chỉnh</h2>
+            </Link>
+            <div style={{float:'left', marginLeft: '10px'}}>
+                
+                <h2>Danh sách tùy chỉnh </h2>
+                
             </div>
 
+
             
-            <Link to="">
-                <div className="icons1">
+            <Link to="/">
+                <div className="icons-friendlist">
                     <CgUserList />
                 </div>
-                <b>Danh sách chưa đặt tên</b>
+                <div className="title-icons-friendlist">
+                    <b>Danh sách chưa đặt tên</b>
+                </div>
             </Link>
-            <Link to="">
-                <div className="icons1">
+            <Link to="/">
+                <div className="icons-friendlist">
                     <CgUserList />
                 </div>
-                <b>Bị hạn chế</b>
+                <div className="title-icons-friendlist">
+                    <b>Bị hạn chế</b>
+                </div>
             </Link>
-            <Link to="">
-                <div className="icons1">
+            <Link to="/">
+                <div className="icons-friendlist">
                     <CgUserList />
                 </div>
-                <b>Người quen</b>
+                <div className="title-icons-friendlist">
+                    <b>Người quen</b>
+                </div>
             </Link>
-            <Link to="">
-                <div className="icons1">
+            <Link to="/">
+                <div className="icons-friendlist">
                     <AiFillStar />
                 </div>
-                <b>Bạn thân</b>
-            </Link>
-            <Link to="">
-                <div className="icons1">
-                    <IoAddOutline/>
+                <div className="title-icons-friendlist">
+                    <b>Bạn thân</b>
                 </div>
-                <b>Tạo danh sách</b>
             </Link>
+            <Link to="/">
+                <div style={{color: '#1876f2', backgroundColor: '#e7f3ff'}}  className="icons-friendlist">
+                    <IoAddOutline/>
+                    
+                </div>
+                <div className="title-icons-friendlist">
+                    <b style={{color: '#1876f2'}}>Tạo danh sách</b>
+                </div>
+                
+            </Link>
+
+         
+              
               
             
         </div>

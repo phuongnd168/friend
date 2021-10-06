@@ -4,13 +4,24 @@
     margin-top: 30px;
     margin-left: 15px;
 }
-.title-friendlist{
+.icons-friendlist{
     float: left;
+    margin-top: 20px;
     margin-left: 15px;
+    clear: both;
+    color: black;
+    background-color: #e4e6eb;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
-}
-.title1-friendlist{
-    margin-left: 45px;
-    margin-top: 15px;
-    position: absolute;
-}
+   }
+   .title-icons-friendlist{
+    float: left;
+    color: black;
+    margin-top: 30px;
+    margin-left: 10px;
+  }

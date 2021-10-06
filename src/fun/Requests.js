@@ -46,7 +46,7 @@ function Requests({Banbe}) {
                             <img  src={value.avt}/>
                         </div> 
                         
-                            <h4 style={{textAlign: 'left', marginLeft: '90px', marginBottom: '10px'}}>{value.fullname}</h4> 
+                        <h4 style={{textAlign: 'left', marginLeft: '90px', marginBottom: '10px'}}>{value.fullname}</h4> 
                         
                         <button className="button-confirm-request"><h4>Xác nhận</h4></button>  
                         <button className="button-delete-request"><h4>Xóa</h4></button>     

@@ -4,6 +4,7 @@ import Home from './fun/Home';
 import './fun/requests.css'
 import './fun/suggestions.css'
 import './fun/list.css'
+import './fun/friendlist.css'
 import { useState } from 'react';
 import logo1 from './img/logo1.jpg';
 import logo2 from './img/logo2.jpeg';

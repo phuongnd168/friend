@@ -149,6 +149,23 @@ function Profile_suggestion({Banbe}) {
 
 
                             </div>
+                            <hr/>
+                            <Link to={value.id} style={{textDecoration: 'none'}}>
+                                
+                                
+                                <div className="profile-avatar-suggestion1">
+                                    <img style={{marginTop: '0px'}} src={value.avt}/>
+                                  
+                                   
+               
+              
+                                    <input style={{border: 'none', width:'80%', height: '30px', outline: 'none', backgroundColor: '#e4e6eb', borderRadius: '20px', marginLeft: '10px', marginBottom: '10px'}} placeholder="Viết bình luận..."/>
+                                   
+                
+            
+                                    
+                                </div> 
+                                </Link>
                             </div>
                             
                         </div>
@@ -163,15 +180,16 @@ function Profile_suggestion({Banbe}) {
                                 <h3 style={{position: 'relative',top: '10px'}}>Ảnh</h3>
                             
                                 <div style={{width: '100%'}}>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
-                                    <img style={{width: '28%', marginRight: '10px', marginBottom: '10px'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                <img style={{width: '28%',height:'100px', marginRight: '10px', marginBottom: '10px', objectFit: 'cover'}} src={value.avt}/>
+                                
                                     
    
                                     

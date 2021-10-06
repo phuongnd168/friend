@@ -9,6 +9,8 @@ import Friend_c from '../fun/Friend_c';
 import Profile_request from '../fun/Profile_request';
 import Profile_suggestion from '../fun/Profile_suggestion';
 import Profile_list from '../fun/Profile_list';
+import Layoutcenter from '../Layout/Layoutcenter';
+import Friend_c1 from '../fun/Friend_c1';
 
 
   
@@ -48,6 +50,8 @@ function Routecenter({Banbe}) {
                         );
                     })
                 }
+                <Route path="/friends/friendlist"><Friend_c1/></Route>
+                <Route path="/"><Layoutcenter Banbe={Banbe}/></Route>
             </Switch>
         
     

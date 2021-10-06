@@ -1,20 +1,34 @@
-@media only screen and (min-width: 1200px) {
+
     .home-controller {
       width: 100%;
       height: 100vh;
       display: flex;
+      justify-content: space-between;
       
     }
     .home-profile {
       width: 25%;
       float: left;
-      position: fixed;
-      left: 0px;
       height: 100%;
       z-index: 10000;
       background-color:white;
       box-shadow: 0px 0px 4px  grey;
       
+    }
+    .home-page {
+      width: 50%;
+     
+      background-color: #f0f2f5;
+      height: 100%;
+      overflow-y: scroll;
+      
+    }
+    
+    .home-advertisement {
+      width: 25%;
+      height: 100%;
+      background-color: black;
+     
     }
     .title-layout{
       float: left;
@@ -25,8 +39,8 @@
      margin-top: 20px;
      margin-left: 15px;
      clear: both;
-     
-     background-color: grey;
+     color: black;
+     background-color: #e4e6eb;
      height: 40px;
      width: 40px;
      border-radius: 50%;
@@ -38,8 +52,8 @@
       float: right;
       margin-top: 15px;
       margin-right: 10px;
-      
-      background-color: grey;
+      background-color: #e4e6eb;
+      color: black;
       height: 40px;
       width: 40px;
       border-radius: 50%;
@@ -51,6 +65,7 @@
       float: left;
       margin-top: 30px;
       margin-left: 10px;
+      color: black;
     }
     .next{
       float: right;
@@ -58,14 +73,7 @@
       margin-right: 15px;
     }
     
-    .home-page {
-      width: 50%;
-      margin-left: 25%;
-      background-color: #f0f2f5;
-      height: 100%;
-      overflow-y: scroll;
-      
-    }
+    
     #style-home-friend::-webkit-scrollbar{
       width: 1px;
      
@@ -75,14 +83,28 @@
       border-radius: 10%;
     }
     
-    .home-advertisement {
-      width: 25%;
-      height: 100%;
-      background-color: black;
-     
+    .button-confirm-layoutcenter{
+      background-color: #1b74e4;
+    color: white;
+    height: 30px;
+    width: 110px;
+    border-radius: 10%;
+    border: none;
+    margin-bottom: 10px;
     }
-  }
+
+    .button-delete-layoutcenter{
+    background-color: #e4e6eb;
+    color: black;
+    height: 30px;
+    width: 110px;
+    border-radius: 10%;
+    border: none;
+    
+    }
+  
   @media only screen and (min-width: 769px) and (max-width: 1199px) {
+
     .home-controller {
       width: 100%;
       padding-top: 75px;
@@ -100,6 +122,7 @@
     .home-advertisement {
       display: none;
     }
+   
   }
   @media only screen and (max-width: 768px) {
     .home-controller {
